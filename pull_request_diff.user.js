@@ -42,6 +42,8 @@ function main() {
         div.style.display = "block"
         div.style.zIndex = "1000"
         div.style.padding = "5px"
+        div.style.background = "#fff"
+        div.style.border = "solid 1px #000"
         compare_link = document.createElement("a")
         compare_link.href = "javascript:compare()"
         compare_link.innerHTML = "Compare selected commits"
