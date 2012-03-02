@@ -25,4 +25,4 @@ compare view, but you had to copy and past the SHAs into the url.
 This script puts two radio buttons (start, end) next to each commit and
 provides a link in the top-left of the screen that generates this url for you.
 
-![Screenshot](/images/screenshot1.png)
+![Screenshot](https://github.com/sbuss/pull_request_intermediate_diffs/blob/master/images/screenshot1.png)
