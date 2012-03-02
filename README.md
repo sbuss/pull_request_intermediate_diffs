@@ -4,6 +4,7 @@ view from the pull request page.
 
 ## Why?
 Have you ever had a long pull request that went back and forth:
+
 * push
 * comments
 * push
@@ -23,3 +24,5 @@ compare view, but you had to copy and past the SHAs into the url.
 
 This script puts two radio buttons (start, end) next to each commit and
 provides a link in the top-left of the screen that generates this url for you.
+
+![Screenshot](/images/screenshot1.png)
