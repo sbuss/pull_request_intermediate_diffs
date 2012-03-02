@@ -35,20 +35,22 @@ function main() {
             c.insertBefore(radio1, commits[i].childNodes[1])
         }
 
-        div = document.createElement("div")
-        div.style.position = "fixed"
-        div.style.top = "0"
-        div.style.left = "0"
-        div.style.display = "block"
-        div.style.zIndex = "1000"
-        div.style.padding = "5px"
-        div.style.background = "#fff"
-        div.style.border = "solid 1px #000"
-        compare_link = document.createElement("a")
-        compare_link.href = "javascript:compare()"
-        compare_link.innerHTML = "Compare selected commits"
-        div.appendChild(compare_link)
-        document.getElementsByTagName('body')[0].appendChild(div)
+        if (commits.length > 0) {
+            div = document.createElement("div")
+            div.style.position = "fixed"
+            div.style.top = "0"
+            div.style.left = "0"
+            div.style.display = "block"
+            div.style.zIndex = "1000"
+            div.style.padding = "5px"
+            div.style.background = "#fff"
+            div.style.border = "solid 1px #000"
+            compare_link = document.createElement("a")
+            compare_link.href = "javascript:compare()"
+            compare_link.innerHTML = "Compare selected commits"
+            div.appendChild(compare_link)
+            document.getElementsByTagName('body')[0].appendChild(div)
+        }
     }
 
     function getSelectedRadio(group) {
