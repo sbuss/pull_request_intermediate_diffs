@@ -71,8 +71,10 @@ function main() {
     window.compare = function() {
         radio1 = getSelectedRadio(document.getElementsByName("start_compare"))
         radio2 = getSelectedRadio(document.getElementsByName("end_compare"))
+        // Pull request urls are like /user/repo/pull/<id>
+        path = window.location.pathname.split('/').slice(0,3).join("/")
         if (radio1 != null && radio2 != null) {
-            window.location = "/dev/website/compare/" + radio1.value + "..." + radio2.value
+            window.location = path + "/compare/" + radio1.value + "..." + radio2.value
         }
     }
 }
