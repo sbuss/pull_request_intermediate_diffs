@@ -2,10 +2,10 @@
 // @name          Pull Request Diffs
 // @namespace     http://github.com/sbuss/
 // @description	  An easy way to view intermediate diffs in a pull request.
-// @include       http://github*/*
-// @include       https://github*/*
-// @include       http://*.github*/*
-// @include       https://*.github*/*
+// @include       http://github*/*/*/pull/*
+// @include       https://github*/*/*/pull/*
+// @include       http://*.github*/*/*/pull/*
+// @include       https://*.github*/*/*/pull/*
 // ==/UserScript==
 
 
