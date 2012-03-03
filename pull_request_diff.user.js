@@ -10,12 +10,10 @@
 
 
 function main() {
-    getCommitAnchors();
+    placeRadioButtons();
 
-    function getCommitAnchors() {
-        //var commits = document.getElementsByClassName("td.commit")
+    function placeRadioButtons() {
         var commits = $('td.commit')
-        //console.log(commits)
         for (var i = 0; i < commits.length; i++) {
             anchor = commits[i].getElementsByTagName("a")[0]
 
@@ -30,7 +28,6 @@ function main() {
             radio2.value = anchor.innerHTML
 
             c = commits[i]
-            //console.log(c)
             c.insertBefore(radio2, commits[i].childNodes[1])
             c.insertBefore(radio1, commits[i].childNodes[1])
         }
