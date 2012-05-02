@@ -28,6 +28,6 @@ provides a link in the top-left of the screen that generates this url for you.
 ![Screenshot](https://github.com/sbuss/pull_request_intermediate_diffs/raw/master/images/screenshot1.png)
 
 ## Installation
-1. Install Greasmonkey (If you're using Chrome you have it built in!)
+1. Install Greasemonkey (If you're using Chrome you have it built in!)
 2. [Download pull_request_diff.user.js](https://github.com/sbuss/pull_request_intermediate_diffs/raw/master/pull_request_diff.user.js)
 3. Go to any pull request and enjoy.
