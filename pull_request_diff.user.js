@@ -6,6 +6,9 @@
 // @include       https://github*/*/*/pull/*
 // @include       http://*.github*/*/*/pull/*
 // @include       https://*.github*/*/*/pull/*
+// @grant         none
+// @version       1.0
+// @updateURL     https://github.com/sbuss/pull_request_intermediate_diffs/raw/master/pull_request_diff.user.js
 // ==/UserScript==
 
 
