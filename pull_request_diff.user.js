@@ -15,7 +15,7 @@ function main() {
     function placeRadioButtons() {
         var commits = $('td.commit-meta')
         for (var i = 0; i < commits.length; i++) {
-            anchor = commits[i].getElementsByTagName("a")[0]
+            anchor = commits[i].getElementsByTagName("code")[0].getElementsByTagName("a")[0]
 
             var radio1 = document.createElement("input")
             radio1.type = "radio"
