@@ -13,7 +13,7 @@ function main() {
     placeRadioButtons();
 
     function placeRadioButtons() {
-        var commits = $('td.commit')
+        var commits = $('td.commit-meta')
         for (var i = 0; i < commits.length; i++) {
             anchor = commits[i].getElementsByTagName("a")[0]
 
